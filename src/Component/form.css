@@ -1,0 +1,124 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background: #cdd1d5; */
+}
+
+h1{
+    color:aliceblue;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgb(244, 243, 243) 0px 0px 10px;
+    border-radius: 10px;
+    background: #f7f7f7; 
+    gap: 5px;
+    width: 30rem;
+}
+
+.form-group{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.form-wrapper label{
+    color: #1b1b1ef3;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-wrapper input{
+    margin-top: 5px;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #2b2e2fea;
+    background-color: #ffffff;
+}
+
+.form-wrapper input:focus{
+    outline: none;
+}
+
+.form-wrapper span{
+    color: rgba(220, 37, 92, 0.953);
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin: 0%;
+}
+
+.form-wrapper span::before{
+    content: "⚠";
+    font-size: 0.8rem;
+    color: rgba(225, 44, 98, 0.953);
+    font-weight: bold;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.form-wrapper select{
+    width: 225px;
+    padding: 10px;
+    margin-top: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #1d2423f3;
+}
+
+.form-wrapper select:focus{
+    outline: none;
+}
+
+.form-wrapper select option{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #252f2ff3;
+    margin-top: 5px;
+    width: 100%;
+} 
+
+button {
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.8rem 3.5rem;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    background: rgba(64, 101, 125, 0.756);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em rgba(59, 48, 78, 0.527);
+    letter-spacing: 0.05em;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
