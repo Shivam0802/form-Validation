@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import "./success.css";
 
-const Success = ( ) => {
+function Success() {
     const location = useLocation();
     const { firstName,lastName,username,email,country,city,aadhar,pan,password,contact } = location.state || {};
 
